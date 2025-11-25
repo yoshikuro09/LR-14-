@@ -7,7 +7,7 @@ function Counter({ count }) {
 
   return (
     <button onClick={() => setCurrent(current + 1)}>
-      Кількість користувачів: {current}
+      Number of users: {current}
     </button>
   )
 }
