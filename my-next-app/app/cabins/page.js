@@ -1,6 +1,10 @@
 import CabinCard from "@/app/_components/CabinCard";
 import Counter from "@/app/_components/Counter";
 
+export const metadata = {
+  title: "Cabins | Wild Oasis",
+};
+
 export default async function Page() {
   // CHANGE
   const res = await fetch('https://jsonplaceholder.typicode.com/users') ;
